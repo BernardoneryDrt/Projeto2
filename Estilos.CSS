@@ -1,0 +1,86 @@
+/* Estilização Global */
+body {
+    background-color: #0f1923;
+    color: #ece8e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cores e Fontes dos Títulos */
+h1 {
+    color: #ff4655;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff4655;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #ff4655;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+/* Classe Destaque para Parágrafo */
+.destaque {
+    background-color: #ece8e1;
+    color: #0f1923;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #ff4655;
+    font-weight: bold;
+}
+
+/* Elementos da Lista e Divs */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Ajuste da Imagem e do Vídeo sem bordas/barras pretas */
+img {
+    max-width: 100%;
+    width: 640px;
+    height: auto;
+    border: 2px solid #ff4655;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: block;
+}
+
+video {
+    max-width: 100%;
+    width: 640px;
+    height: 360px; /* Define altura proporcional a 16:9 */
+    object-fit: cover; /* Preenche a área toda sem deixar barras pretas */
+    border: 2px solid #ff4655;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: block;
+}
+
+a {
+    color: #ff4655;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 
+MECANISMO DE AVALIAÇÃO METACOGNITIVA
+
+1.Desafio Técnico:
+
+A meu ver o desafio técnico mais difícil foi encontrar a "width" e a "height" corretas para o vídeo, porque se não fossem as corretas, apareciam barras pretas em cima e em baixo do vídeo, o que não era bonito, consegui encontrar a solução para a height mas a width nao consegiu encontrar, nos videos.
+
+2.Correção de Sintaxe:
+
+O meu erro mais comum foi esquecer-me de colocar o ponto e vírgula no final das linhas,e utilizar as chavetas de forma correta,o que me causou alguns problemas com o código.
+
+3.Autoria
+
+O href serve para criar um link para outro site, e o target serve para abrir esse link num novo separador do navegador, e o texto entre as tags <a> e </a> é o texto que vai aparecer no site, e que ao clicar nele, vai abrir o link, sendo então o texto uma indicação do que o link vai abrir. *\
